@@ -1,0 +1,3 @@
+[INFO] 2024/01/12 04:33:30 {"event":"SERVICE_INIT","listen":":8000"}
+[WARN] 2024/01/12 04:35:24 {"event":"SERVICE_EXITING"}
+[WARN] 2024/01/12 04:35:27 {"event":"SERVICE_EXIT","status":"success"}

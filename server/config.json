@@ -1,0 +1,13 @@
+{
+    "listen": ":8001",
+    "salt": "123456abcdef",
+    "auth": {
+        "username": "password"
+    },
+    "domain": "http://10.0.0.246/",
+    "log": {
+        "level": "info",
+        "path": "./logs",
+        "days": 7
+    }
+}

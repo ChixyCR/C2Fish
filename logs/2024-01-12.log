@@ -1,0 +1,144 @@
+[INFO] 2024/01/12 04:38:09 {"event":"SERVICE_INIT","listen":":8000"}
+[WARN] 2024/01/12 04:39:35 {"event":"LOGIN_ATTEMPT","from":"127.0.0.1","status":"fail","user":"<EMPTY>"}
+[WARN] 2024/01/12 04:39:36 {"event":"LOGIN_ATTEMPT","from":"127.0.0.1","status":"success","user":"username"}
+[WARN] 2024/01/12 04:40:07 {"event":"SERVICE_EXITING"}
+[INFO] 2024/01/12 04:40:19 {"event":"SERVICE_INIT","listen":":8000"}
+[WARN] 2024/01/12 04:40:22 {"event":"LOGIN_ATTEMPT","from":"127.0.0.1","status":"fail","user":"<EMPTY>"}
+[WARN] 2024/01/12 04:40:25 {"event":"LOGIN_ATTEMPT","from":"127.0.0.1","status":"success","user":"username"}
+[WARN] 2024/01/12 04:40:37 {"event":"SERVICE_EXITING"}
+[WARN] 2024/01/12 04:40:40 {"event":"SERVICE_EXIT","status":"success"}
+[INFO] 2024/01/12 23:06:19 {"event":"SERVICE_INIT","listen":":8000"}
+[WARN] 2024/01/12 23:06:30 {"event":"LOGIN_ATTEMPT","from":"127.0.0.1","status":"fail","user":"<EMPTY>"}
+[WARN] 2024/01/12 23:06:31 {"event":"LOGIN_ATTEMPT","from":"127.0.0.1","status":"success","user":"username"}
+[WARN] 2024/01/12 23:07:24 {"event":"SERVICE_EXITING"}
+[WARN] 2024/01/12 23:07:27 {"event":"SERVICE_EXIT","status":"success"}
+[INFO] 2024/01/12 23:08:38 {"event":"SERVICE_INIT","listen":":8000"}
+[WARN] 2024/01/12 23:08:52 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"fail","user":"<EMPTY>"}
+[WARN] 2024/01/12 23:08:58 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:09:01 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:09:01 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"fail","user":"<EMPTY>"}
+[WARN] 2024/01/12 23:09:04 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:09:05 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:09:08 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:09:09 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:09:12 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:09:20 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:09:20 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:09:22 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"fail","user":"<EMPTY>"}
+[WARN] 2024/01/12 23:09:24 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:09:24 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:09:28 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:09:28 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:09:35 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:09:35 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:09:35 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:09:35 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:09:35 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:09:35 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:09:35 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:09:35 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:09:35 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:09:35 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:09:35 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:09:35 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:09:35 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:09:35 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:09:37 {"act":"GENERATE","event":"CALL_DEVICE","from":"10.0.0.201","msg":"invalid act","status":"fail"}
+[WARN] 2024/01/12 23:10:01 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:10:01 {"event":"SERVICE_EXITING"}
+[WARN] 2024/01/12 23:10:04 {"event":"SERVICE_EXIT","status":"success"}
+[INFO] 2024/01/12 23:18:38 {"event":"SERVICE_INIT","listen":":8000"}
+[WARN] 2024/01/12 23:18:50 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"fail","user":"<EMPTY>"}
+[WARN] 2024/01/12 23:19:14 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:14 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:17 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:21 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:27 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:28 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:28 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:28 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:28 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:28 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:28 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:28 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:28 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:28 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:28 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:28 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:28 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:28 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:28 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:28 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:28 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:29 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:30 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:30 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:31 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:31 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:32 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:32 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:33 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:33 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:34 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:34 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:35 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:35 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:36 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:36 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:37 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:37 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:37 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:38 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:38 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:39 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:39 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:40 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:40 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:41 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:41 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:42 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:42 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:43 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:43 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:44 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:44 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:45 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:45 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:46 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:46 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:47 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:47 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:48 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:48 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:49 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:49 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:50 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:50 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:51 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:51 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:52 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:52 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:53 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:53 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:54 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:54 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:55 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:55 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:56 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:56 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:57 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:57 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:58 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:58 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:59 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:19:59 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:20:00 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:20:00 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:20:01 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:20:02 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:20:02 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:20:03 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:20:03 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:20:04 {"event":"LOGIN_ATTEMPT","from":"10.0.0.201","status":"success","user":"username"}
+[WARN] 2024/01/12 23:20:04 {"event":"SERVICE_EXITING"}
+[WARN] 2024/01/12 23:20:07 {"event":"SERVICE_EXIT","status":"success"}

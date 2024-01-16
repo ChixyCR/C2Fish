@@ -1,0 +1,56 @@
+[
+	{
+		"value": "linux",
+		"label": "Linux",
+		"children": [
+			{
+				"value": "arm",
+				"label": "arm"
+			},
+			{
+				"value": "arm64",
+				"label": "arm64"
+			},
+			{
+				"value": "i386",
+				"label": "i386"
+			},
+			{
+				"value": "amd64",
+				"label": "amd64"
+			}
+		]
+	},
+	{
+		"value": "windows",
+		"label": "Windows",
+		"children": [
+			{
+				"value": "arm64",
+				"label": "arm64"
+			},
+			{
+				"value": "i386",
+				"label": "i386"
+			},
+			{
+				"value": "amd64",
+				"label": "amd64"
+			}
+		]
+	},
+	{
+		"value": "darwin",
+		"label": "Darwin",
+		"children": [
+			{
+				"value": "arm64",
+				"label": "arm64"
+			},
+			{
+				"value": "amd64",
+				"label": "amd64"
+			}
+		]
+	}
+]
