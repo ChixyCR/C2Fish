@@ -4,7 +4,7 @@
 ***钓鱼C2***
 
 半成品项目，失业在家无聊和朋友写的，写一半不想写了，毕竟半途而废才是日站的主旋律。
-代码基本上是从https://github.com/XZB-1248/Spark和https://github.com/MorouU/nightingale抄过来的，能用就行
+代码基本上是从https://github.com/XZB-1248/Spark 和 https://github.com/MorouU/nightingale 抄过来的，能用就行
 
 
 
