@@ -12,7 +12,7 @@ var DBConfig = map[string]string{
 	"dbType":      "mysql",
 	"host":        "127.0.0.1",
 	"user":        "root",
-	"pass":        "wang246314",
+	"pass":        "root",
 	"database":    "fishc2",
 	"port":        "3306",
 	"charset":     "utf8",
