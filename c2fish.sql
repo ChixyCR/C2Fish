@@ -55,10 +55,10 @@ CREATE TABLE `ni_app_public_modules` (
 -- Records of ni_app_public_modules
 -- ----------------------------
 BEGIN;
-INSERT INTO `ni_app_public_modules` (`moduleID`, `moduleName`, `moduleData`, `createTime`) VALUES (1, '域内请求XSS模块', '支持功能：\r\n* 向指定域内URL进行GET、POST请求和上传文件请求', '2021-05-13 14:01:42');
-INSERT INTO `ni_app_public_modules` (`moduleID`, `moduleName`, `moduleData`, `createTime`) VALUES (2, 'flash钓鱼XSS模块', '支持功能：\r\n* 显示需要安装flash插件，诱导用户点击并下载文件', '2021-05-14 14:33:38');
-INSERT INTO `ni_app_public_modules` (`moduleID`, `moduleName`, `moduleData`, `createTime`) VALUES (3, '端口扫描XSS模块', '支持功能：\r\n* 可以探测指定IP的指定范围端口', '2021-05-17 16:03:05');
-INSERT INTO `ni_app_public_modules` (`moduleID`, `moduleName`, `moduleData`, `createTime`) VALUES (5, '默认XSS模块', '支持功能：\r\n* 获取对方当前URL \r\n* 获取对方来路URL \r\n* 获取对方Cookie数据 \r\n* 获取对方操作系统 \r\n* 获取对方浏览器信息 \r\n* 获取对方屏幕分辨率 \r\n* 获取对方网页内容 (会以json格式发送至邮箱) \r\n* 获取对方网页截图 (会以json格式发送至邮箱) ', '2021-04-16 17:57:32');
+INSERT INTO `ni_app_public_modules` (`moduleID`, `moduleName`, `moduleData`, `createTime`) VALUES (0, '域内请求XSS模块', '支持功能：\r\n* 向指定域内URL进行GET、POST请求和上传文件请求', '2021-05-13 14:01:42');
+INSERT INTO `ni_app_public_modules` (`moduleID`, `moduleName`, `moduleData`, `createTime`) VALUES (1, 'flash钓鱼XSS模块', '支持功能：\r\n* 显示需要安装flash插件，诱导用户点击并下载文件', '2021-05-14 14:33:38');
+INSERT INTO `ni_app_public_modules` (`moduleID`, `moduleName`, `moduleData`, `createTime`) VALUES (2, '端口扫描XSS模块', '支持功能：\r\n* 可以探测指定IP的指定范围端口', '2021-05-17 16:03:05');
+INSERT INTO `ni_app_public_modules` (`moduleID`, `moduleName`, `moduleData`, `createTime`) VALUES (3, '默认XSS模块', '支持功能：\r\n* 获取对方当前URL \r\n* 获取对方来路URL \r\n* 获取对方Cookie数据 \r\n* 获取对方操作系统 \r\n* 获取对方浏览器信息 \r\n* 获取对方屏幕分辨率 \r\n* 获取对方网页内容 (会以json格式发送至邮箱) \r\n* 获取对方网页截图 (会以json格式发送至邮箱) ', '2021-04-16 17:57:32');
 COMMIT;
 
 -- ----------------------------

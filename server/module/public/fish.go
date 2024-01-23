@@ -46,7 +46,6 @@ function ni_download(){
 
 var Module_fish_invoke = `window.location.getCert=function (){
 	window.location.href=%s;
-	fetch(%s,{})
 }`
 
 func Module_fish_next(c *gin.Context, moduleID, taskName string) {
