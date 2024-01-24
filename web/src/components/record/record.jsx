@@ -56,6 +56,7 @@ const RecordByTaskID = memo(function ({ open, onOK, onCancel, taskInfo: { taskID
         await waitTime(300);
         let res = await request('/api/fish/record' + '?taskID=' + taskID);
         let data = res.data;
+        console.log('record list', res)
         setDataSource(data);
         return ({ data: [], success: false, total: 0 });
     }
