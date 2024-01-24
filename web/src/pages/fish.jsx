@@ -120,13 +120,11 @@ const TableCom = (({ dataSource, getData }) => {
     }
     function onChangeStatus(taskID) {
         console.log(taskID, taskStatus)
-        request('/api/fish/stop' + '?taskID=' + taskID).then(res => {
-            console.log('onChangeStatus res', res)
-        });
+        request('/api/fish/stop' + '?taskID=' + taskID);
         tableRef.current.reload();
     }
     function onUseCode(taskID) {
-        const str = `<script src=http://127.0.0.1:8001/api/${btoa(String(taskID).padStart(3, '0'))}></script>`;
+        const str = `<script src=${location.protocol + '//'+ location.hostname+':'+location.port }/api/${btoa(String(taskID).padStart(3, '0'))}></script>`;
         handlePopText(str);
     }
     function onDelete(taskID) {
