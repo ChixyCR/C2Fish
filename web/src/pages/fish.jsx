@@ -120,9 +120,7 @@ const TableCom = (({ dataSource, getData }) => {
     }
     function onChangeStatus(taskID) {
         console.log(taskID, taskStatus)
-        request('/api/fish/stop' + '?taskID=' + taskID).then(res => {
-            console.log('onChangeStatus res', res)
-        });
+        request('/api/fish/stop' + '?taskID=' + taskID)
         tableRef.current.reload();
     }
     function onUseCode(taskID) {
