@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import {HashRouter as Router, Route, Routes} from 'react-router-dom';
 import Wrapper from './components/wrapper';
@@ -6,13 +6,29 @@ import Err from './pages/404';
 import axios from 'axios';
 import {message} from 'antd';
 import i18n from "./locale/locale";
-import C2 from "./pages/c2page";
 import {translate} from "./utils/utils";
-import Dashboard from "./pages/dashboard.jsx";
-import Fish from "./pages/fish";
 
 import './global.css';
 import 'antd/dist/antd.css';
+
+const routes = [
+	{
+		path:'/',
+		Componment: lazy(()=> import('./pages/dashboard'))
+	},
+	{
+		path:'c2',
+		Componment: lazy(()=> import('./pages/c2page'))
+	},
+	{
+		path:'fish',
+		Componment: lazy(()=> import('./pages/fish'))
+	},
+	{
+		path:'*',
+		Componment: Err
+	},
+]
 
 axios.defaults.baseURL = '.';
 axios.interceptors.response.use(async res => {
@@ -47,12 +63,18 @@ axios.interceptors.response.use(async res => {
 
 ReactDOM.render(
 	<Router>
+		<Suspense fallback={()=> <div>loading...</div>}>
 		<Routes>
-			<Route path="/" element={<Wrapper><Dashboard/></Wrapper>}/>
-			<Route path="c2" element={<Wrapper><C2/></Wrapper>}/>
-			<Route path="fish" element={<Wrapper><Fish/></Wrapper>}/>
-			<Route path="*" element={<Err/>}/>
+			{
+				routes.map(({ path, Componment },i)=>(
+					<Route key={i}
+					   path={path}
+					   element={<Wrapper><Componment/></Wrapper>}
+					/>
+				))
+			}
 		</Routes>
+		</Suspense>
 	</Router>,
 	document.getElementById('root')
 );
