@@ -2,10 +2,11 @@ const path = require("path");
 const esbuild = require('esbuild');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
-const {ESBuildMinifyPlugin} = require("esbuild-loader");
-const {CleanWebpackPlugin} = require("clean-webpack-plugin");
+const { ESBuildMinifyPlugin } = require("esbuild-loader");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const AntdDayjsWebpackPlugin = require("antd-dayjs-webpack-plugin");
 const CompressionPlugin = require("compression-webpack-plugin");
+const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin');
 
 module.exports = (env, args) => {
     let mode = args.mode;
@@ -21,12 +22,17 @@ module.exports = (env, args) => {
             rules: [
                 {
                     test: /\.(js|jsx)$/i,
-                    loader: 'esbuild-loader',
                     include: path.resolve(__dirname, 'src'),
-                    options: {
-                        loader: 'jsx',
-                        target: 'es2015'
-                    }
+                    use: [
+                        {
+                            loader: 'esbuild-loader',
+                            options: {
+                                loader: 'jsx',
+                                target: 'es2015'
+                            }
+                        },
+                        'babel-loader',
+                    ],
                 },
                 {
                     test: /\.css$/,
@@ -68,10 +74,11 @@ module.exports = (env, args) => {
         plugins: [
             new HtmlWebpackPlugin({
                 appMountId: 'root',
-                template:  path.resolve(__dirname, 'public/index.html'),
+                template: path.resolve(__dirname, 'public/index.html'),
                 filename: 'index.html',
                 inject: true
             }),
+            new ReactRefreshWebpackPlugin(),
             new CleanWebpackPlugin(),
             new AntdDayjsWebpackPlugin(),
             new CopyWebpackPlugin({
